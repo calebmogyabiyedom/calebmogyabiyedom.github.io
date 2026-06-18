@@ -1,4 +1,78 @@
 ---
-title: "About"
+title: "Resume"
+toc: true
+toc-title: "On this page"
 ---
-This site was created on 9/18/2024 to host my datascience projects
+
+## Education
+
+**Pomona College** — Claremont, CA *(August 2022 – May 2026)*
+
+Bachelor of Arts in Economics and Econometrics, Minor in Data Science
+
+---
+
+## Skills
+
+**Programming & Tools:** Python, R, Stata, Excel, Playwright, Selenium
+
+**Finance:** Financial Modeling, DCF Analysis, IRR Analysis, Cash Flow Analysis, Portfolio Valuation, Fund Accounting, US GAAP
+
+**Data & ML:** Statistical Modeling, Data Pipeline Automation, Computer Vision, Clustering Algorithms
+
+---
+
+## Experience
+
+**Real Estate Private Equity Internship** — Remote
+*Analyst | June 2026 – Present*
+
+- Conducting end-to-end underwriting of commercial real estate assets across office, multifamily, industrial, and retail sectors, analyzing rent rolls, operating expenses, NOI projections, and cap rate assumptions
+- Building DCF models and IRR analyses to evaluate hold-sell decisions, debt and equity structures, and projected returns across multiple investment scenarios
+
+**Sagehen Capital Management** — Claremont, CA
+*Student Analyst | January 2023 – May 2026*
+
+- Built multi-year financial models in Excel and Stata to analyze investment datasets, identifying return drivers and quantifying growth opportunities
+- Conducted due diligence on prospective investments across asset classes including bonds and derivatives, assessing risk/return profiles and capital structure implications
+- Modeled inflation derivatives to evaluate hedging strategies and assess exposure to macroeconomic variables including CPI trends and real yield movements
+
+**Pomona Consulting Group** — Claremont, CA
+*Project Lead | December 2024 – May 2025*
+
+- Directed a 5-member team through a 10-week engagement, delivering strategic recommendations adopted by client leadership
+- Designed market entry framework analyzing consumer segmentation and industry benchmarks, influencing client's go-to-market strategy
+
+**ASPC Coop Store** — Claremont, CA
+*Manager | January 2023 – May 2026*
+
+- Managed daily financial operations for a student-run business serving 1,600+ students, including cash flow monitoring, expense tracking, and vendor payment coordination
+- Analyzed $50K+ in annual sales data to optimize inventory, reducing shortages by 20% and improving profit margins
+
+**EconLLM Lab** — Claremont, CA
+*Vice President | February 2025 – May 2026*
+
+- Built automated data collection and analysis pipelines using Python, Selenium, and Playwright, reducing manual processing time and improving output accuracy
+- Designed agent-based systems modeling AI-human decision making at scale
+
+**UL Solutions** — Fremont, CA
+*SAR Intern | May 2024 – July 2024*
+
+- Conducted statistical analysis on large compliance datasets to identify safety trends, producing reports used in regulatory certifications
+- Partnered with cross-functional teams to ensure regulatory accuracy and maintain audit-ready documentation
+
+---
+
+## Projects
+
+**P-RoomMatch** — P-ai, Claremont, CA
+*Project Manager | September 2024 – December 2024*
+
+- Spearheaded development of an AI roommate-matching platform using clustering algorithms (k-means, hierarchical, GMM)
+- Collected and analyzed 500+ survey responses using Python (pandas) to generate accurate matches
+
+**Project NXTPLAY** — P-ai, Claremont, CA
+*Machine Learning Engineer | January 2023 – May 2026*
+
+- Built computer vision models to analyze 100+ hours of football footage, tracking players, referees, and ball movement
+- Produced insights into play efficiency, improving team strategy presentations

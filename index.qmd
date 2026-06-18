@@ -8,21 +8,35 @@ about:
   image-width: 17em
   links:
     - text: LinkedIn
+      icon: linkedin
       href: https://www.linkedin.com/in/caleb-mogyabiyedom-0a3715275/
     - text: GitHub
+      icon: github
       href: https://github.com/elevenw11se
     - text: Email
+      icon: envelope
       href: mailto:koficaleb11@gmail.com
 ---
 
+### Economics × Data Science × Financial Markets
 
-### *Economics × Data Science × Financial Markets*
+I'm a data analyst with a background in economics, focused on turning messy, 
+real-world data into clear insights, particularly in financial markets and 
+emerging economies. I work primarily in R, Python and Excel, building analyses and 
+tools that sit at the intersection of quantitative research and storytelling.
 
-> I use data to analyze markets, evaluate investments, and uncover insights—especially in emerging economies.
+---
 
+**What I do:**
 
-👉 Explore my work in the **Data Viz** tab above.
+- Exploratory data analysis and data visualization
+- Financial and market research
+- Automation and data pipelines
+- Economic analysis with a focus on emerging markets
 
+---
+
+*Currently building out this portfolio. New projects added regularly.*
 
 
 

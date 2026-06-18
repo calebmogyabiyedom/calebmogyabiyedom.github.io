@@ -12,7 +12,7 @@ website:
         text: Home
       - href: about.qmd
         text: About
-      - text: "Data Viz"  
+      - text: "Projects"  
         menu:
           - href: Netflix Shows And Movies Analysis.qmd
             text: Netflix Shows And Movies Analysis
