@@ -1,8 +1,7 @@
 ---
 title: "Premier League Match Analysis"
 editor: visual
-description: |
-  Analysis Of Premier League Data from Tidy Tuesday
+description: Analysis Of Premier League Data from Tidy Tuesday
 author: Caleb Mogyabiyedom
 date: September 18, 2024
 format: html
@@ -14,13 +13,12 @@ format: html
 #| warning: false
 #| message: false
 #| echo: false
-library(tidytuesdayR)
 library(ggplot2)
 library(dplyr)
 library(tidyr)
+library(readr)
 
-tuesdata <- suppressMessages(tt_load('2023-04-04'))
-soccer <- tuesdata$soccer
+soccer <- read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/main/data/2023/2023-04-04/soccer21-22.csv', show_col_types = FALSE)
 
 ```
 
@@ -57,7 +55,7 @@ ggplot(soccer, aes(x = HST, y = FTHG)) +
   theme(plot.title = element_text(face = "bold", size = 13))
 ```
 
-This second plot narrows the focus from total shots to shots *on target*, a more direct measure of attacking quality. The relationship here is noticeably tighter than the first plot, suggesting that shot accuracy is a stronger predictor of goals than shot volume alone. In other words, teams that consistently test the goalkeeper are more likely to score than teams that simply shoot often without precision. This points to a broader insight: quality of chances created often matters more than raw shot count. \
+This second plot narrows the focus from total shots to shots *on target*, a more direct measure of attacking quality. The relationship here is noticeably tighter than the first plot, suggesting that shot accuracy is a stronger predictor of goals than shot volume alone. In other words, teams that consistently test the goalkeeper are more likely to score than teams that simply shoot often without precision. This points to a broader insight: quality of chances created often matters more than raw shot count.\
 \
 \## Home Advantage
 
