@@ -324,7 +324,7 @@ ul.task-list li input[type="checkbox"] {
 
 <div>
   <div class="description">
-    Analysis Of Premier League Data from Tidy Tuesday
+    <p>Analysis Of Premier League Data from Tidy Tuesday</p>
   </div>
 </div>
 
@@ -353,10 +353,13 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>## Introduction</p>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
 <p>The Premier League is widely regarded as the most competitive domestic football league in the world, where fine margins separate the top of the table from the bottom. This analysis explores match-level data from the 2021/22 Premier League season to understand what actually drives goals and match outcomes. Specifically, it investigates three questions: Does shooting more lead to scoring more? Does shot accuracy matter more than shot volume? And does playing at home provide a measurable scoring advantage?</p>
-<p><strong>**Key</strong> question: What factors are most associated with scoring goals in the Premier League, and how much of an edge does home advantage really provide?</p>
-<p>## Shots vs.&nbsp;Goals</p>
+<p><strong>Key question: What factors are most associated with scoring goals in the Premier League, and how much of an edge does home advantage really provide?</strong></p>
+</section>
+<section id="shots-vs.-goals" class="level2">
+<h2 class="anchored" data-anchor-id="shots-vs.-goals">Shots vs.&nbsp;Goals</h2>
 <div class="cell">
 <div class="cell-output-display">
 <div>
@@ -367,8 +370,9 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 <p>The scatter plot above shows the relationship between the number of shots a home team takes and the number of goals they score in a match. The trend line shows a positive relationship — teams that take more shots tend to score more goals — but the relationship is far from perfect. Many matches with 15-20 shots still resulted in zero or one goal, while a handful of matches saw teams convert relatively few shots into multiple goals. This suggests that shot volume alone is not the full story behind scoring output.</p>
-<p><br>
-## Shot Accuracy vs.&nbsp;Goals</p>
+</section>
+<section id="shot-accuracy-vs.-goals" class="level2">
+<h2 class="anchored" data-anchor-id="shot-accuracy-vs.-goals">Shot Accuracy vs.&nbsp;Goals</h2>
 <div class="cell">
 <div class="cell-output-display">
 <div>
@@ -378,9 +382,10 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </div>
-<p>This second plot narrows the focus from total shots to shots <em>on target</em>, a more direct measure of attacking quality. The relationship here is noticeably tighter than the first plot, suggesting that shot accuracy is a stronger predictor of goals than shot volume alone. In other words, teams that consistently test the goalkeeper are more likely to score than teams that simply shoot often without precision. This points to a broader insight: quality of chances created often matters more than raw shot count.<br>
-<br>
-## Home Advantage</p>
+<p>This second plot narrows the focus from total shots to shots on target, a more direct measure of attacking quality. The relationship here is noticeably tighter than the first plot, suggesting that shot accuracy is a stronger predictor of goals than shot volume alone. In other words, teams that consistently test the goalkeeper are more likely to score than teams that simply shoot often without precision. This points to a broader insight: quality of chances created often matters more than raw shot count.</p>
+</section>
+<section id="home-advantage" class="level2">
+<h2 class="anchored" data-anchor-id="home-advantage">Home Advantage</h2>
 <div class="cell">
 <div class="cell-output-display">
 <div>
@@ -390,17 +395,19 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </div>
-<p>The final chart compares the average number of goals scored by home teams versus away teams across the entire season. Home teams scored more goals on average than away teams, confirming the long-discussed “home advantage” effect in football. This is likely driven by a combination of factors not captured in this dataset, including crowd support, travel fatigue for the away side, and greater familiarity with the pitch and surroundings.<br>
-<br>
-## Conclusion</p>
-<p><br>
-Taken together, these three analyses suggest that goals in the Premier League are driven less by sheer shot volume and more by shot quality and contextual factors like home advantage. While teams that take more shots do tend to score more, the relationship strengthens considerably when looking specifically at shots on target, indicating that precision matters more than persistence. Additionally, the consistent home scoring advantage reinforces why managers and analysts place so much emphasis on home form when evaluating a team’s title or relegation chances. Ultimately, the data tells a clear story: in the Premier League, quality of opportunity and home support are just as important as the raw number of attempts a team generates.<br>
-<br>
-## Reference</p>
-<p>Gower, E. (2023). <strong>*Premier</strong> League Match Data* [Data set]. TidyTuesday, R for Data Science. https://github.com/rfordatascience/tidytuesday/blob/main/data/2023/2023-04-04/readme.md</p>
+<p>The final chart compares the average number of goals scored by home teams versus away teams across the entire season. Home teams scored more goals on average than away teams, confirming the long-discussed “home advantage” effect in football. This is likely driven by a combination of factors not captured in this dataset, including crowd support, travel fatigue for the away side, and greater familiarity with the pitch and surroundings.</p>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>Taken together, these three analyses suggest that goals in the Premier League are driven less by sheer shot volume and more by shot quality and contextual factors like home advantage. While teams that take more shots do tend to score more, the relationship strengthens considerably when looking specifically at shots on target, indicating that precision matters more than persistence. Additionally, the consistent home scoring advantage reinforces why managers and analysts place so much emphasis on home form when evaluating a team’s title or relegation chances. Ultimately, the data tells a clear story: in the Premier League, quality of opportunity and home support are just as important as the raw number of attempts a team generates.</p>
+</section>
+<section id="reference" class="level2">
+<h2 class="anchored" data-anchor-id="reference">Reference</h2>
+<p>Gower, E. (2023). <em>Premier League Match Data</em> [Data set]. TidyTuesday, R for Data Science. <a href="https://github.com/rfordatascience/tidytuesday/blob/main/data/2023/2023-04-04/readme.md" class="uri">https://github.com/rfordatascience/tidytuesday/blob/main/data/2023/2023-04-04/readme.md</a></p>
 <p>Data originally sourced from the official Premier League website and Kaggle, credit to Evan Gower.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
