@@ -26,6 +26,8 @@ website:
             text: SQL WAI Analysis
           - href: Netflix Analysis(Extended).qmd
             text: Netflix Analysis Slides
+          - href: ghana-dashboard.qmd
+            text: Ghana Macroeconomic Dashboard
          
     
       
