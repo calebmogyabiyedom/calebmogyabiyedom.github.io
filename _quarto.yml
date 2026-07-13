@@ -12,7 +12,7 @@ website:
         text: Home
       - href: about.qmd
         text: About
-      - text: "Projects"  
+      - text: "Projects"
         menu:
           - href: ghana-dashboard.qmd
             text: Ghana Macroeconomic Dashboard
@@ -20,24 +20,18 @@ website:
             text: Netflix Shows And Movies Analysis
           - href: Premier League Match Analysis.qmd
             text: Premier League Match Analysis
-          #- href: SAFI_Data Survey Analysis.qmd
-          #  text: SAFI Data Survey Analysis
-          #- href: Project 3.qmd
-          #  text: Birth Count Analysis
-          #- href: SQL WAI Analysis.qmd
-          #  text: SQL WAI Analysis
-          #- href: Netflix Analysis(Extended).qmd
-          #  text: Netflix Analysis Slides
-          
-         
-    
-      
-        
-
+          - href: SQL WAI Analysis.qmd
+            text: SQL WAI Analysis
+          - href: SAFI_Data Survey Analysis.qmd
+            text: SAFI Data Survey Analysis
+          - href: Project 3.qmd
+            text: Birth Count Analysis
+          - href: Netflix Analysis(Extended).qmd
+            text: Netflix Analysis Slides
 
 format:
   html:
-    theme: 
+    theme:
       light: minty
       dark: solar
     css: styles.css
